@@ -45,9 +45,11 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "build.tools"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -57,6 +59,15 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.mt" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn exec:java" />
+      <command value="mvn package:cobertura" />
+      <command value="mvn cobertura:cobertura -Dcobertura.report.format=xml" />
+      <command value="mmvn sonar:sonar -Dsonar.login=myAuthenticationToken" />
+      <command value="mvn sonar:sonar -Dsonar.login=myAuthenticationToken" />
+    </option>
   </component>
   <component name="RunManager" selected="JUnit.MBGameTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -153,7 +164,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651699104716</updated>
-      <workItem from="1651699106508" duration="37201000" />
+      <workItem from="1651699106508" duration="40327000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1651707977705</created>
@@ -204,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651784937609</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added a in pom.xml exec plugin to run the command line app">
+      <created>1651791175876</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1651791175876</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,6 +245,7 @@
     <MESSAGE value="Logic Correction" />
     <MESSAGE value="Logic Correction 2" />
     <MESSAGE value="Got the interactive part inplemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="Got the interactive part inplemented" />
+    <MESSAGE value="Added a in pom.xml exec plugin to run the command line app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a in pom.xml exec plugin to run the command line app" />
   </component>
 </project>
