@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed1eea9c-202d-46c3-ae56-735222288aa1" name="Changes" comment="Got the interactive part inplemented">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mt/ConsolePrintScore.java" afterDir="false" />
+    <list default="true" id="ed1eea9c-202d-46c3-ae56-735222288aa1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mt/Frame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mt/Frame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mt/FrameList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mt/FrameList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mt/MBGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mt/MBGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mt/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mt/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mt/MBGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mt/MBGameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +153,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651699104716</updated>
-      <workItem from="1651699106508" duration="34214000" />
+      <workItem from="1651699106508" duration="37201000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1651707977705</created>
@@ -202,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651712850159</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Got the interactive part inplemented">
+      <created>1651784937609</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1651784937609</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,16 +228,5 @@
     <MESSAGE value="Logic Correction 2" />
     <MESSAGE value="Got the interactive part inplemented" />
     <option name="LAST_COMMIT_MESSAGE" value="Got the interactive part inplemented" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/mt/MBGame.java</url>
-          <line>102</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
