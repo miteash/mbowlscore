@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import static com.mt.Main.logger;
 
 public class MBGame {
+    // Class MBGame
     public ArrayList<Frame> gameFrames;
     public FrameList gList;
     BufferedReader reader;
