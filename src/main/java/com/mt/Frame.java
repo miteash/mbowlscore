@@ -16,7 +16,7 @@ public class Frame {
         return mthrows;
     }
 
-    public void setTries(ArrayList<Throw> athrows) {
+    public void setThrows(ArrayList<Throw> athrows) {
         this.mthrows = athrows;
     }
 }

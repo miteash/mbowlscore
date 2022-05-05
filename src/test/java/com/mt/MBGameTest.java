@@ -108,4 +108,20 @@ class MBGameTest {
         assertTrue(gameTest.setFinalFrameValue(1,2,2,2, 3, 0));
         assertEquals(40, gameTest.calculateTotalScore());
     }
+
+    @Test
+    @DisplayName("Assert a Total Score of 110 for getting a 2 in each throw in all frames")
+    void calculateTotalScore4() {
+        assertTrue(gameTest.setFrameValue(0, gameTest.gameFrames,1,0,2,10));
+        assertTrue(gameTest.setFrameValue(1, gameTest.gameFrames,1,0,2,10));
+        assertTrue(gameTest.setFrameValue(2, gameTest.gameFrames,1,0,2,10));
+        assertTrue(gameTest.setFrameValue(3, gameTest.gameFrames,1,0,2,10));
+        assertTrue(gameTest.setFrameValue(4, gameTest.gameFrames,1,0,2,10));
+        assertTrue(gameTest.setFrameValue(5, gameTest.gameFrames,1,0,2,10));
+        assertTrue(gameTest.setFrameValue(6, gameTest.gameFrames,1,0,2,10));
+        assertTrue(gameTest.setFrameValue(7, gameTest.gameFrames,1,0,2,10));
+        assertTrue(gameTest.setFrameValue(8, gameTest.gameFrames,1,0,2,10));
+        assertTrue(gameTest.setFinalFrameValue(1,0,2,10, 3, 10));
+        assertEquals(110, gameTest.calculateTotalScore());
+    }
 }

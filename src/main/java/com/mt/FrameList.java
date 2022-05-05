@@ -5,22 +5,25 @@ import static com.mt.Main.logger;
 
 public class FrameList {
     // Class Frame
-    public  ArrayList<Frame> CreateFrames() {
+    public  ArrayList<Frame> createFrames() {
+        logger.info("Entering createFrames");
         Frame frame;
         ArrayList<Frame> createFrames = new ArrayList<>();
         for (int i = 0; i <= 9; i++) {
             if (i == 9) {
                 frame = createLastFrame();
             } else {
-                frame = CreateFrame();
+                frame = createFrame();
             }
 
             createFrames.add(frame);
         }
+        logger.info("Exiting createFrames");
         return createFrames;
     }
 
-    public Frame CreateFrame() {
+    public Frame createFrame() {
+        logger.info("Entering createFrame");
         Frame f = new Frame();
         f.mthrows = createThrows(2);
         f.lastFrame = false;
@@ -29,7 +32,7 @@ public class FrameList {
         f.done = false;
         f.spare = false;
         f.totalScore = 0;
-
+        logger.info("Exiting createFrame");
         return f;
     }
 
@@ -47,14 +50,14 @@ public class FrameList {
         logger.info("Exiting createLastFrame");
         return f;
     }
-    public ArrayList<Throw> createThrows(int numTries) {
+    public ArrayList<Throw> createThrows(int numThrows) {
         logger.info("Entering createThrows");
         ArrayList<Throw> mthrow = new ArrayList<>();
         int indexThrow = 0;
-        while (mthrow.size() < numTries) {
-            Throw newTry = new Throw();
-            newTry.throwNumber = (++indexThrow);
-            mthrow.add(newTry);
+        while (mthrow.size() < numThrows) {
+            Throw newThrow = new Throw();
+            newThrow.throwNumber = (++indexThrow);
+            mthrow.add(newThrow);
         }
         logger.info("Entering createThrows");
         return (mthrow);
@@ -76,17 +79,13 @@ public class FrameList {
             if (pinFallen <= (10 - frame.getThrows().get(0).getKnockedDownPins())) {
                 frame.getThrows().get(throwNumber).setKnockedDownPins(pinFallen);
                 rvalue = true;
-                if (pinFallen == 10) {
-                    frame.strike = true;
-                    frame.score = pinFallen;
-                } else if (pinFallen + frame.getThrows().get(1).getKnockedDownPins() == 10) {
+                if (pinFallen + frame.getThrows().get(1).getKnockedDownPins() == 10) {
                     frame.spare = true;
-                    frame.score = 10;
-                } else {
-                    frame.score = frame.getThrows().get(1).getKnockedDownPins() + pinFallen;
                 }
-
-            } else if (throwNumber == 3) {
+                frame.score = frame.getThrows().get(1).getKnockedDownPins() + pinFallen;
+                System.out.println("2 Score = " + frame.score);
+            }
+        }else if (throwNumber == 3) {
                 if (pinFallen <= 10) {
                     if ((frame.score == 10) || (frame.score == 20)) {
                         // Case of two strike or one strike
@@ -95,10 +94,8 @@ public class FrameList {
                         rvalue = true;
                     }
                 }
-
-            }
-
         }
+
         logger.info("Exiting setFrameFallenPins");
         return rvalue;
     }

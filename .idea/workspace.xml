@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed1eea9c-202d-46c3-ae56-735222288aa1" name="Changes" comment="Logic Correction">
+    <list default="true" id="ed1eea9c-202d-46c3-ae56-735222288aa1" name="Changes" comment="Got the interactive part inplemented">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mt/ConsolePrintScore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mt/Frame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mt/Frame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mt/FrameList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mt/FrameList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mt/MBGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mt/MBGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mt/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mt/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mt/MBGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mt/MBGameTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -91,10 +92,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MBGameTest.calculateTotalScore3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mbowlscore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mt" />
+      <option name="MAIN_CLASS_NAME" value="com.mt.MBGameTest" />
+      <option name="METHOD_NAME" value="calculateTotalScore3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MBGameTest.calculateTotalScore4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mbowlscore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mt" />
+      <option name="MAIN_CLASS_NAME" value="com.mt.MBGameTest" />
+      <option name="METHOD_NAME" value="calculateTotalScore4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MBGameTest.setFrameValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mbowlscore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mt" />
+      <option name="MAIN_CLASS_NAME" value="com.mt.MBGameTest" />
+      <option name="METHOD_NAME" value="setFrameValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MBGameTest" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.MBGameTest.setFrameValue" />
+        <item itemvalue="JUnit.MBGameTest.calculateTotalScore4" />
+        <item itemvalue="JUnit.MBGameTest.calculateTotalScore3" />
       </list>
     </recent_temporary>
   </component>
@@ -106,7 +158,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651699104716</updated>
-      <workItem from="1651699106508" duration="11936000" />
+      <workItem from="1651699106508" duration="34214000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1651707977705</created>
@@ -143,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651712789092</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Logic Correction 2">
+      <created>1651712850159</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1651712850159</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +224,18 @@
     <MESSAGE value="Added Logging" />
     <MESSAGE value="Logic Correction" />
     <MESSAGE value="Logic Correction 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Logic Correction 2" />
+    <MESSAGE value="Got the interactive part inplemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="Got the interactive part inplemented" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mt/MBGame.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
