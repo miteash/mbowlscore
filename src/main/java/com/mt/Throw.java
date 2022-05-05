@@ -1,6 +1,7 @@
 package com.mt;
 
 public class Throw {
+    // Class Throw
     private int knockedDownPins;
     public boolean done = false;
     public int throwNumber =0;
