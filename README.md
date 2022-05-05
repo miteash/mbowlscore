@@ -19,6 +19,9 @@ README.xml
 at the command line prompt
 type
 >mvn claean package
+>or
+>mvn clean dependency:copy-dependencies package
+>this will download the log and junit dependency jars
 this is build the package and you will see more directories
 like 
 target
@@ -30,6 +33,10 @@ This will run 8 tests to validate the edge cases
 to run the commandline program
 please type the following 
 > mvn exec:java -Dexec.mainClass="com.mt.Main"
+
+or even
+> mvn exec:java - may also work
+
 
 This will start the program and ask a user to input pin fallen per throw per frame basis and it will show the score of the game
 enjoy try this out
