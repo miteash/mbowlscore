@@ -41,5 +41,6 @@ or even
 This will start the program and ask a user to input pin fallen per throw per frame basis and it will show the score of the game
 enjoy try this out
 Thanks a lot.
+Happy testing the blowing game score
 
 
